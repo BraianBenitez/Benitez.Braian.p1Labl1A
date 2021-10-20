@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1634740858 source:c:\users\braian\desktop\utn\tps_labo_1\1erparcial\bicicleta.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"fecha.h"
+	"tipo.h"
+	"color.h"
+	"bicicleta.h"
+	"servicio.h"
+	"trabajo.h"
+	"funciones.h"
+
+1634741496 source:c:\users\braian\desktop\utn\tps_labo_1\1erparcial\color.c
+	<stdio.h>
+	<stdlib.h>
+	"color.h"
+
+1634730761 source:c:\users\braian\desktop\utn\tps_labo_1\1erparcial\fecha.c
+
+1634741765 source:c:\users\braian\desktop\utn\tps_labo_1\1erparcial\servicio.c
+	<stdio.h>
+	<stdlib.h>
+	"servicio.h"
+
+1634741370 source:c:\users\braian\desktop\utn\tps_labo_1\1erparcial\tipo.c
+	<stdio.h>
+	<stdlib.h>
+	"tipo.h"
+
+1634735339 source:c:\users\braian\desktop\utn\tps_labo_1\1erparcial\trabajo.c
+	<stdio.h>
+	<stdlib.h>
+
+1634741370 source:c:\users\braian\desktop\utn\tps_labo_1\1erparcial\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"fecha.h"
+	"tipo.h"
+	"color.h"
+	"bicicleta.h"
+	"servicio.h"
+	"trabajo.h"
+	"funciones.h"
+
+1634732938 c:\users\braian\desktop\utn\tps_labo_1\1erparcial\fecha.h
+
+1634741323 c:\users\braian\desktop\utn\tps_labo_1\1erparcial\tipo.h
+
+1634741496 c:\users\braian\desktop\utn\tps_labo_1\1erparcial\color.h
+
+1634740896 c:\users\braian\desktop\utn\tps_labo_1\1erparcial\bicicleta.h
+	"tipo.h"
+	"color.h"
+
+1634741629 c:\users\braian\desktop\utn\tps_labo_1\1erparcial\servicio.h
+
+1634732938 c:\users\braian\desktop\utn\tps_labo_1\1erparcial\trabajo.h
+	"fecha.h"
+
+1634740455 c:\users\braian\desktop\utn\tps_labo_1\1erparcial\funciones.h
+	"fecha.h"
+	"tipo.h"
+	"color.h"
+	"bicicleta.h"
+	"servicio.h"
+	"trabajo.h"
+
+1634741627 source:c:\users\braian\desktop\utn\tps_labo_1\1erparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fecha.h"
+	"tipo.h"
+	"color.h"
+	"bicicleta.h"
+	"servicio.h"
+	"trabajo.h"
+	"funciones.h"
+
