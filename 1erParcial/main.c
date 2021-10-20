@@ -90,7 +90,7 @@ int main()
             mostrarColores(colores, TAM_COL);
             break;
         case 7:
-           // mostrarServicios(servicios, TAM_SERV);
+           mostrarServicios(servicios, TAM_SERV);
             break;
         case 8:
             break;
