@@ -12,9 +12,10 @@ int mostrarServicios(eServicio servicios[], int tam)
         printf("----------------------------------------\n");
         for(int i = 0; i < tam; i++)
         {
-            printf("  %d -> %20s -> %d\n", servicios[i].id,
-                    servicios[i].descripcion,
-                    servicios->precio);
+            printf("  %d -> %20s -> %d\n",
+                   servicios[i].id,
+                   servicios[i].descripcion,
+                   servicios[i].precio);
         }
         retorno = 1;
     }
