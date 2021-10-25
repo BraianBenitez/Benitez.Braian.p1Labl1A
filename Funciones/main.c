@@ -19,6 +19,8 @@ float aplicarDescuento(float precioProducto);
 
 int contarCaracteres(char cadena[], char caracter);
 
+int ordenarPorMarca(eNotebook notebooks[], int tam);
+
 int main()
 {
 
@@ -47,17 +49,32 @@ int main()
     __fpurge(stdin);
     scanf("%c", &caracter);
 
-    printf("%d", contarCaracteres(cadena, caracter));
+    printf("%d\n", contarCaracteres(cadena, caracter));
 
+        printf("ID     PROCESADOR         MARCA   PRECIO\n");
     for(int i = 0; i < TAM; i++)
     {
-        printf("%d, %s, %s , %d",
+        printf("%d     %10s      %10s    %d\n",
                notebook[i].id,
                notebook[i].procesador,
                notebook[i].marca,
                notebook[i].precio);
     }
 
+    printf("\n\n");
+
+    ordenarPorMarca(notebook, TAM);
+
+
+        printf("ID     PROCESADOR         MARCA   PRECIO\n");
+    for(int i = 0; i < TAM; i++)
+    {
+        printf("%d     %10s     %10s    %d\n",
+               notebook[i].id,
+               notebook[i].procesador,
+               notebook[i].marca,
+               notebook[i].precio);
+    }
 
     return 0;
 }
@@ -118,12 +135,12 @@ int ordenarPorMarca(eNotebook notebooks[], int tam)
         {
             for(int j = i + 1; j < tam; j++)
             {
-                if( notebooks[i].marca > notebooks[j].marca ||
-                (notebooks[i].marca == notebooks[j].marca && notebooks[i].precio > notebooks[j].precio))
+                if( strcmp(notebooks[i].marca, notebooks[j].marca) < 0 ||
+                (strcmp(notebooks[i].marca, notebooks[j].marca) == 0 && notebooks[i].precio > notebooks[j].precio))
                 {
-                    strcpy(auxNotebook.marca, notebooks[i].marca);
-                    strcpy(notebooks[i].marca, notebooks[j].marca);
-                    strcpy(notebooks[j].marca, auxNotebook.marca);
+                    auxNotebook = notebooks[i],
+                    notebooks[i] = notebooks[j],
+                    notebooks[j] = auxNotebook;
                 }
             }
         }
