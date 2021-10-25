@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1635163974 source:/home/braian/codeblocks-workspace/Practicar_Funciones/main.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+
+1635164014 source:/home/braian/codeblocks-workspace/Practicar_Funciones/funciones.c
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1635164014 /home/braian/codeblocks-workspace/Practicar_Funciones/funciones.h
+
